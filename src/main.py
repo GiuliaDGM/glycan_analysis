@@ -2,14 +2,14 @@
 
 # Imports
 from glycan_analysis import *
-import tkinter as tk
-from tkinter import simpledialog
+# import tkinter as tk
+# from tkinter import simpledialog
 
 if __name__ == "__main__":
     # Input files
-    itp_file = "../data/IL3_GLY_R1/toppar/PROA.itp"
-    gro_file = "../data/IL3_GLY_R1/IL3_GLY_R1_conv.gro"
-    xtc_file = "../data/IL3_GLY_R1/IL3_GLY_R1_conv.xtc"
+    itp_file = "data/IL3_GLY_R1_conv/toppar/PROA.itp"
+    gro_file = "data/IL3_GLY_R1_conv/IL3_GLY_R1_conv.gro"
+    xtc_file = "data/IL3_GLY_R1_conv/IL3_GLY_R1_conv.xtc"
 
     # Set of standard amino acids
     AMINO_ACIDS = {
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     glycans, num_glycans, atom_data = parse_itp(itp_file, AMINO_ACIDS)
 
     # Write glycan ranges to file
-    output_file = "../results/IL3_GLY_R1/glycan_ranges.txt"
+    output_file = "results/IL3_GLY_R1/glycan_ranges.txt"
     write_glycan_ranges(output_file, glycans, num_glycans, AMINO_ACIDS)
     print(f"Glycan ranges and dihedrals written to {output_file}\n")
 
@@ -74,18 +74,18 @@ if __name__ == "__main__":
     ###################################
     # E) USER PROMPT TO PLOT OR NOT   #
     ###################################
-    want_plot = None
+    want_plot = True
 
     while want_plot is None:
         try:
             # Try showing a Tkinter pop-up
-            root = tk.Tk()
-            root.withdraw()  # Hide the main Tk window
-            answer = simpledialog.askstring(
-                "Plot generation",
-                "Do you want to generate dihedral angle plots ? (yes/no)",
-            )
-            root.destroy()  # Close the hidden root window
+            # root = tk.Tk()
+            # root.withdraw()  # Hide the main Tk window
+            # answer = simpledialog.askstring(
+            #     "Plot generation",
+            #     "Do you want to generate dihedral angle plots ? (yes/no)",
+            # )
+            # root.destroy()  # Close the hidden root window
 
             if answer is None:
                 # User closed pop-up or cancelled

@@ -1,0 +1,647 @@
+# Total Glycans: 3
+# Glycan Atom Ranges and Dihedrals
+Glycan 1: 288 - 2114
+  Glycan-only Dihedrals: []
+  Protein-Glycan Dihedrals: [(271, 273, 286, 288), (274, 273, 286, 288), (273, 286, 288, 289), (287, 286, 288, 289), (287, 286, 288, 290), (286, 288, 290, 291), (288, 290, 305, 307), (291, 290, 305, 307), (290, 305, 307, 308), (306, 305, 307, 308), (306, 305, 307, 309), (305, 307, 309, 310), (319, 321, 332, 334), (322, 321, 332, 334), (321, 332, 334, 335), (333, 332, 334, 335), (333, 332, 334, 336), (332, 334, 336, 337), (353, 355, 370, 372), (356, 355, 370, 372), (355, 370, 372, 373), (371, 370, 372, 373), (371, 370, 372, 374), (370, 372, 374, 375), (704, 706, 714, 716), (707, 706, 714, 716), (706, 714, 716, 717), (715, 714, 716, 717), (715, 714, 716, 718), (714, 716, 718, 719), (716, 718, 733, 735), (719, 718, 733, 735), (718, 733, 735, 736), (734, 733, 735, 736), (734, 733, 735, 737), (733, 735, 737, 738), (1140, 1142, 1148, 1150), (1143, 1142, 1148, 1150), (1142, 1148, 1150, 1151), (1149, 1148, 1150, 1151), (1149, 1148, 1150, 1152), (1148, 1150, 1152, 1153), (1150, 1152, 1167, 1169), (1153, 1152, 1167, 1169), (1152, 1167, 1169, 1170), (1168, 1167, 1169, 1170), (1168, 1167, 1169, 1171), (1167, 1169, 1171, 1172), (1184, 1186, 1193, 1195), (1187, 1186, 1193, 1195), (1186, 1193, 1195, 1196), (1194, 1193, 1195, 1196), (1194, 1193, 1195, 1197), (1193, 1195, 1197, 1198), (1195, 1197, 1212, 1214), (1198, 1197, 1212, 1214), (1197, 1212, 1214, 1215), (1213, 1212, 1214, 1215), (1213, 1212, 1214, 1216), (1212, 1214, 1216, 1217), (1496, 1500, 1508, 1510), (1501, 1500, 1508, 1510), (1500, 1508, 1510, 1511), (1509, 1508, 1510, 1511), (1509, 1508, 1510, 1512), (1508, 1510, 1512, 1513), (1510, 1512, 1527, 1529), (1513, 1512, 1527, 1529), (1512, 1527, 1529, 1530), (1528, 1527, 1529, 1530), (1528, 1527, 1529, 1531), (1527, 1529, 1531, 1532), (1529, 1531, 1544, 1546), (1532, 1531, 1544, 1546), (1531, 1544, 1546, 1547), (1545, 1544, 1546, 1547), (1545, 1544, 1546, 1548), (1544, 1546, 1548, 1549), (1546, 1548, 1563, 1565), (1549, 1548, 1563, 1565), (1548, 1563, 1565, 1566), (1564, 1563, 1565, 1566), (1564, 1563, 1565, 1567), (1563, 1565, 1567, 1568), (2086, 2088, 2094, 2096), (2089, 2088, 2094, 2096), (2088, 2094, 2096, 2097), (2095, 2094, 2096, 2097), (2095, 2094, 2096, 2098), (2094, 2096, 2098, 2099), (2096, 2098, 2113, 2115), (2099, 2098, 2113, 2115), (2098, 2113, 2115, 2116), (2114, 2113, 2115, 2116), (2114, 2113, 2115, 2117), (2113, 2115, 2117, 2118)]
+  Classified Glycan-only Dihedrals:
+  Classified Protein-Glycan Dihedrals:
+    Dihedral: (271, 273, 286, 288) (Type: unknown)
+      {'atom_index': 271, 'resnr': 19, 'resname': 'MET', 'atom_name': 'N'}
+      {'atom_index': 273, 'resnr': 19, 'resname': 'MET', 'atom_name': 'CA'}
+      {'atom_index': 286, 'resnr': 19, 'resname': 'MET', 'atom_name': 'C'}
+      {'atom_index': 288, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (274, 273, 286, 288) (Type: unknown)
+      {'atom_index': 274, 'resnr': 19, 'resname': 'MET', 'atom_name': 'HA'}
+      {'atom_index': 273, 'resnr': 19, 'resname': 'MET', 'atom_name': 'CA'}
+      {'atom_index': 286, 'resnr': 19, 'resname': 'MET', 'atom_name': 'C'}
+      {'atom_index': 288, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (273, 286, 288, 289) (Type: unknown)
+      {'atom_index': 273, 'resnr': 19, 'resname': 'MET', 'atom_name': 'CA'}
+      {'atom_index': 286, 'resnr': 19, 'resname': 'MET', 'atom_name': 'C'}
+      {'atom_index': 288, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 289, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (287, 286, 288, 289) (Type: unknown)
+      {'atom_index': 287, 'resnr': 19, 'resname': 'MET', 'atom_name': 'O'}
+      {'atom_index': 286, 'resnr': 19, 'resname': 'MET', 'atom_name': 'C'}
+      {'atom_index': 288, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 289, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (287, 286, 288, 290) (Type: unknown)
+      {'atom_index': 287, 'resnr': 19, 'resname': 'MET', 'atom_name': 'O'}
+      {'atom_index': 286, 'resnr': 19, 'resname': 'MET', 'atom_name': 'C'}
+      {'atom_index': 288, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 290, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'CA'}
+    Dihedral: (286, 288, 290, 291) (Type: unknown)
+      {'atom_index': 286, 'resnr': 19, 'resname': 'MET', 'atom_name': 'C'}
+      {'atom_index': 288, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 290, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 291, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'HA'}
+    Dihedral: (288, 290, 305, 307) (Type: unknown)
+      {'atom_index': 288, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 290, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 305, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 307, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'N'}
+    Dihedral: (291, 290, 305, 307) (Type: unknown)
+      {'atom_index': 291, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'HA'}
+      {'atom_index': 290, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 305, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 307, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'N'}
+    Dihedral: (290, 305, 307, 308) (Type: unknown)
+      {'atom_index': 290, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 305, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 307, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'N'}
+      {'atom_index': 308, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'HN'}
+    Dihedral: (306, 305, 307, 308) (Type: unknown)
+      {'atom_index': 306, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 305, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 307, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'N'}
+      {'atom_index': 308, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'HN'}
+    Dihedral: (306, 305, 307, 309) (Type: unknown)
+      {'atom_index': 306, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 305, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 307, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'N'}
+      {'atom_index': 309, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'CA'}
+    Dihedral: (305, 307, 309, 310) (Type: unknown)
+      {'atom_index': 305, 'resnr': 20, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 307, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'N'}
+      {'atom_index': 309, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'CA'}
+      {'atom_index': 310, 'resnr': 21, 'resname': 'ASP', 'atom_name': 'HA'}
+    Dihedral: (319, 321, 332, 334) (Type: unknown)
+      {'atom_index': 319, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'N'}
+      {'atom_index': 321, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'CA'}
+      {'atom_index': 332, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'C'}
+      {'atom_index': 334, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (322, 321, 332, 334) (Type: unknown)
+      {'atom_index': 322, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'HA'}
+      {'atom_index': 321, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'CA'}
+      {'atom_index': 332, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'C'}
+      {'atom_index': 334, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (321, 332, 334, 335) (Type: unknown)
+      {'atom_index': 321, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'CA'}
+      {'atom_index': 332, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'C'}
+      {'atom_index': 334, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 335, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (333, 332, 334, 335) (Type: unknown)
+      {'atom_index': 333, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'O'}
+      {'atom_index': 332, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'C'}
+      {'atom_index': 334, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 335, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (333, 332, 334, 336) (Type: unknown)
+      {'atom_index': 333, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'O'}
+      {'atom_index': 332, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'C'}
+      {'atom_index': 334, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 336, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'CA'}
+    Dihedral: (332, 334, 336, 337) (Type: unknown)
+      {'atom_index': 332, 'resnr': 22, 'resname': 'GLU', 'atom_name': 'C'}
+      {'atom_index': 334, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 336, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 337, 'resnr': 23, 'resname': 'ILE', 'atom_name': 'HA'}
+    Dihedral: (353, 355, 370, 372) (Type: unknown)
+      {'atom_index': 353, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 355, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 370, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 372, 'resnr': 25, 'resname': 'THR', 'atom_name': 'N'}
+    Dihedral: (356, 355, 370, 372) (Type: unknown)
+      {'atom_index': 356, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'HA'}
+      {'atom_index': 355, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 370, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 372, 'resnr': 25, 'resname': 'THR', 'atom_name': 'N'}
+    Dihedral: (355, 370, 372, 373) (Type: unknown)
+      {'atom_index': 355, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 370, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 372, 'resnr': 25, 'resname': 'THR', 'atom_name': 'N'}
+      {'atom_index': 373, 'resnr': 25, 'resname': 'THR', 'atom_name': 'HN'}
+    Dihedral: (371, 370, 372, 373) (Type: unknown)
+      {'atom_index': 371, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 370, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 372, 'resnr': 25, 'resname': 'THR', 'atom_name': 'N'}
+      {'atom_index': 373, 'resnr': 25, 'resname': 'THR', 'atom_name': 'HN'}
+    Dihedral: (371, 370, 372, 374) (Type: unknown)
+      {'atom_index': 371, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 370, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 372, 'resnr': 25, 'resname': 'THR', 'atom_name': 'N'}
+      {'atom_index': 374, 'resnr': 25, 'resname': 'THR', 'atom_name': 'CA'}
+    Dihedral: (370, 372, 374, 375) (Type: unknown)
+      {'atom_index': 370, 'resnr': 24, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 372, 'resnr': 25, 'resname': 'THR', 'atom_name': 'N'}
+      {'atom_index': 374, 'resnr': 25, 'resname': 'THR', 'atom_name': 'CA'}
+      {'atom_index': 375, 'resnr': 25, 'resname': 'THR', 'atom_name': 'HA'}
+    Dihedral: (704, 706, 714, 716) (Type: unknown)
+      {'atom_index': 704, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'N'}
+      {'atom_index': 706, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'CA'}
+      {'atom_index': 714, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'C'}
+      {'atom_index': 716, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (707, 706, 714, 716) (Type: unknown)
+      {'atom_index': 707, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'HA'}
+      {'atom_index': 706, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'CA'}
+      {'atom_index': 714, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'C'}
+      {'atom_index': 716, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (706, 714, 716, 717) (Type: unknown)
+      {'atom_index': 706, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'CA'}
+      {'atom_index': 714, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'C'}
+      {'atom_index': 716, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 717, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (715, 714, 716, 717) (Type: unknown)
+      {'atom_index': 715, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'O'}
+      {'atom_index': 714, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'C'}
+      {'atom_index': 716, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 717, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (715, 714, 716, 718) (Type: unknown)
+      {'atom_index': 715, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'O'}
+      {'atom_index': 714, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'C'}
+      {'atom_index': 716, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 718, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'CA'}
+    Dihedral: (714, 716, 718, 719) (Type: unknown)
+      {'atom_index': 714, 'resnr': 46, 'resname': 'ASP', 'atom_name': 'C'}
+      {'atom_index': 716, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 718, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 719, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'HA'}
+    Dihedral: (716, 718, 733, 735) (Type: unknown)
+      {'atom_index': 716, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 718, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 733, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 735, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'N'}
+    Dihedral: (719, 718, 733, 735) (Type: unknown)
+      {'atom_index': 719, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'HA'}
+      {'atom_index': 718, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 733, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 735, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'N'}
+    Dihedral: (718, 733, 735, 736) (Type: unknown)
+      {'atom_index': 718, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 733, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 735, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'N'}
+      {'atom_index': 736, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'HN'}
+    Dihedral: (734, 733, 735, 736) (Type: unknown)
+      {'atom_index': 734, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 733, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 735, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'N'}
+      {'atom_index': 736, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'HN'}
+    Dihedral: (734, 733, 735, 737) (Type: unknown)
+      {'atom_index': 734, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 733, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 735, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'N'}
+      {'atom_index': 737, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'CA'}
+    Dihedral: (733, 735, 737, 738) (Type: unknown)
+      {'atom_index': 733, 'resnr': 47, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 735, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'N'}
+      {'atom_index': 737, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'CA'}
+      {'atom_index': 738, 'resnr': 48, 'resname': 'LEU', 'atom_name': 'HA'}
+    Dihedral: (1140, 1142, 1148, 1150) (Type: unknown)
+      {'atom_index': 1140, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'N'}
+      {'atom_index': 1142, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'CA'}
+      {'atom_index': 1148, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 1150, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (1143, 1142, 1148, 1150) (Type: unknown)
+      {'atom_index': 1143, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'HA'}
+      {'atom_index': 1142, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'CA'}
+      {'atom_index': 1148, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 1150, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (1142, 1148, 1150, 1151) (Type: unknown)
+      {'atom_index': 1142, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'CA'}
+      {'atom_index': 1148, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 1150, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1151, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (1149, 1148, 1150, 1151) (Type: unknown)
+      {'atom_index': 1149, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'O'}
+      {'atom_index': 1148, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 1150, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1151, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (1149, 1148, 1150, 1152) (Type: unknown)
+      {'atom_index': 1149, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'O'}
+      {'atom_index': 1148, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 1150, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1152, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'CA'}
+    Dihedral: (1148, 1150, 1152, 1153) (Type: unknown)
+      {'atom_index': 1148, 'resnr': 73, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 1150, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1152, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1153, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'HA'}
+    Dihedral: (1150, 1152, 1167, 1169) (Type: unknown)
+      {'atom_index': 1150, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1152, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1167, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1169, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'N'}
+    Dihedral: (1153, 1152, 1167, 1169) (Type: unknown)
+      {'atom_index': 1153, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'HA'}
+      {'atom_index': 1152, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1167, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1169, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'N'}
+    Dihedral: (1152, 1167, 1169, 1170) (Type: unknown)
+      {'atom_index': 1152, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1167, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1169, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'N'}
+      {'atom_index': 1170, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'HN'}
+    Dihedral: (1168, 1167, 1169, 1170) (Type: unknown)
+      {'atom_index': 1168, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 1167, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1169, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'N'}
+      {'atom_index': 1170, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'HN'}
+    Dihedral: (1168, 1167, 1169, 1171) (Type: unknown)
+      {'atom_index': 1168, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 1167, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1169, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'N'}
+      {'atom_index': 1171, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'CA'}
+    Dihedral: (1167, 1169, 1171, 1172) (Type: unknown)
+      {'atom_index': 1167, 'resnr': 74, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1169, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'N'}
+      {'atom_index': 1171, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'CA'}
+      {'atom_index': 1172, 'resnr': 75, 'resname': 'GLU', 'atom_name': 'HA'}
+    Dihedral: (1184, 1186, 1193, 1195) (Type: unknown)
+      {'atom_index': 1184, 'resnr': 76, 'resname': 'SER', 'atom_name': 'N'}
+      {'atom_index': 1186, 'resnr': 76, 'resname': 'SER', 'atom_name': 'CA'}
+      {'atom_index': 1193, 'resnr': 76, 'resname': 'SER', 'atom_name': 'C'}
+      {'atom_index': 1195, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (1187, 1186, 1193, 1195) (Type: unknown)
+      {'atom_index': 1187, 'resnr': 76, 'resname': 'SER', 'atom_name': 'HA'}
+      {'atom_index': 1186, 'resnr': 76, 'resname': 'SER', 'atom_name': 'CA'}
+      {'atom_index': 1193, 'resnr': 76, 'resname': 'SER', 'atom_name': 'C'}
+      {'atom_index': 1195, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (1186, 1193, 1195, 1196) (Type: unknown)
+      {'atom_index': 1186, 'resnr': 76, 'resname': 'SER', 'atom_name': 'CA'}
+      {'atom_index': 1193, 'resnr': 76, 'resname': 'SER', 'atom_name': 'C'}
+      {'atom_index': 1195, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1196, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (1194, 1193, 1195, 1196) (Type: unknown)
+      {'atom_index': 1194, 'resnr': 76, 'resname': 'SER', 'atom_name': 'O'}
+      {'atom_index': 1193, 'resnr': 76, 'resname': 'SER', 'atom_name': 'C'}
+      {'atom_index': 1195, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1196, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (1194, 1193, 1195, 1197) (Type: unknown)
+      {'atom_index': 1194, 'resnr': 76, 'resname': 'SER', 'atom_name': 'O'}
+      {'atom_index': 1193, 'resnr': 76, 'resname': 'SER', 'atom_name': 'C'}
+      {'atom_index': 1195, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1197, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'CA'}
+    Dihedral: (1193, 1195, 1197, 1198) (Type: unknown)
+      {'atom_index': 1193, 'resnr': 76, 'resname': 'SER', 'atom_name': 'C'}
+      {'atom_index': 1195, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1197, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1198, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'HA'}
+    Dihedral: (1195, 1197, 1212, 1214) (Type: unknown)
+      {'atom_index': 1195, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1197, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1212, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1214, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'N'}
+    Dihedral: (1198, 1197, 1212, 1214) (Type: unknown)
+      {'atom_index': 1198, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'HA'}
+      {'atom_index': 1197, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1212, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1214, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'N'}
+    Dihedral: (1197, 1212, 1214, 1215) (Type: unknown)
+      {'atom_index': 1197, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1212, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1214, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'N'}
+      {'atom_index': 1215, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'HN'}
+    Dihedral: (1213, 1212, 1214, 1215) (Type: unknown)
+      {'atom_index': 1213, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 1212, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1214, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'N'}
+      {'atom_index': 1215, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'HN'}
+    Dihedral: (1213, 1212, 1214, 1216) (Type: unknown)
+      {'atom_index': 1213, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 1212, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1214, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'N'}
+      {'atom_index': 1216, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'CA'}
+    Dihedral: (1212, 1214, 1216, 1217) (Type: unknown)
+      {'atom_index': 1212, 'resnr': 77, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1214, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'N'}
+      {'atom_index': 1216, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'CA'}
+      {'atom_index': 1217, 'resnr': 78, 'resname': 'LEU', 'atom_name': 'HA'}
+    Dihedral: (1496, 1500, 1508, 1510) (Type: unknown)
+      {'atom_index': 1496, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'N'}
+      {'atom_index': 1500, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'CA'}
+      {'atom_index': 1508, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'C'}
+      {'atom_index': 1510, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (1501, 1500, 1508, 1510) (Type: unknown)
+      {'atom_index': 1501, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'HA'}
+      {'atom_index': 1500, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'CA'}
+      {'atom_index': 1508, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'C'}
+      {'atom_index': 1510, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (1500, 1508, 1510, 1511) (Type: unknown)
+      {'atom_index': 1500, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'CA'}
+      {'atom_index': 1508, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'C'}
+      {'atom_index': 1510, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1511, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (1509, 1508, 1510, 1511) (Type: unknown)
+      {'atom_index': 1509, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'O'}
+      {'atom_index': 1508, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'C'}
+      {'atom_index': 1510, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1511, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (1509, 1508, 1510, 1512) (Type: unknown)
+      {'atom_index': 1509, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'O'}
+      {'atom_index': 1508, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'C'}
+      {'atom_index': 1510, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1512, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'CA'}
+    Dihedral: (1508, 1510, 1512, 1513) (Type: unknown)
+      {'atom_index': 1508, 'resnr': 96, 'resname': 'PRO', 'atom_name': 'C'}
+      {'atom_index': 1510, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1512, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1513, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'HA'}
+    Dihedral: (1510, 1512, 1527, 1529) (Type: unknown)
+      {'atom_index': 1510, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1512, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1527, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1529, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'N'}
+    Dihedral: (1513, 1512, 1527, 1529) (Type: unknown)
+      {'atom_index': 1513, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'HA'}
+      {'atom_index': 1512, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1527, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1529, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'N'}
+    Dihedral: (1512, 1527, 1529, 1530) (Type: unknown)
+      {'atom_index': 1512, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1527, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1529, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'N'}
+      {'atom_index': 1530, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'HN'}
+    Dihedral: (1528, 1527, 1529, 1530) (Type: unknown)
+      {'atom_index': 1528, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 1527, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1529, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'N'}
+      {'atom_index': 1530, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'HN'}
+    Dihedral: (1528, 1527, 1529, 1531) (Type: unknown)
+      {'atom_index': 1528, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 1527, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1529, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'N'}
+      {'atom_index': 1531, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'CA'}
+    Dihedral: (1527, 1529, 1531, 1532) (Type: unknown)
+      {'atom_index': 1527, 'resnr': 97, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1529, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'N'}
+      {'atom_index': 1531, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'CA'}
+      {'atom_index': 1532, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'HA'}
+    Dihedral: (1529, 1531, 1544, 1546) (Type: unknown)
+      {'atom_index': 1529, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'N'}
+      {'atom_index': 1531, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'CA'}
+      {'atom_index': 1544, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'C'}
+      {'atom_index': 1546, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (1532, 1531, 1544, 1546) (Type: unknown)
+      {'atom_index': 1532, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'HA'}
+      {'atom_index': 1531, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'CA'}
+      {'atom_index': 1544, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'C'}
+      {'atom_index': 1546, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (1531, 1544, 1546, 1547) (Type: unknown)
+      {'atom_index': 1531, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'CA'}
+      {'atom_index': 1544, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'C'}
+      {'atom_index': 1546, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1547, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (1545, 1544, 1546, 1547) (Type: unknown)
+      {'atom_index': 1545, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'O'}
+      {'atom_index': 1544, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'C'}
+      {'atom_index': 1546, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1547, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (1545, 1544, 1546, 1548) (Type: unknown)
+      {'atom_index': 1545, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'O'}
+      {'atom_index': 1544, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'C'}
+      {'atom_index': 1546, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1548, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'CA'}
+    Dihedral: (1544, 1546, 1548, 1549) (Type: unknown)
+      {'atom_index': 1544, 'resnr': 98, 'resname': 'HSD', 'atom_name': 'C'}
+      {'atom_index': 1546, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1548, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1549, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'HA'}
+    Dihedral: (1546, 1548, 1563, 1565) (Type: unknown)
+      {'atom_index': 1546, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 1548, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1563, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1565, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'N'}
+    Dihedral: (1549, 1548, 1563, 1565) (Type: unknown)
+      {'atom_index': 1549, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'HA'}
+      {'atom_index': 1548, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1563, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1565, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'N'}
+    Dihedral: (1548, 1563, 1565, 1566) (Type: unknown)
+      {'atom_index': 1548, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 1563, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1565, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'N'}
+      {'atom_index': 1566, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'HN'}
+    Dihedral: (1564, 1563, 1565, 1566) (Type: unknown)
+      {'atom_index': 1564, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 1563, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1565, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'N'}
+      {'atom_index': 1566, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'HN'}
+    Dihedral: (1564, 1563, 1565, 1567) (Type: unknown)
+      {'atom_index': 1564, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 1563, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1565, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'N'}
+      {'atom_index': 1567, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'CA'}
+    Dihedral: (1563, 1565, 1567, 1568) (Type: unknown)
+      {'atom_index': 1563, 'resnr': 99, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 1565, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'N'}
+      {'atom_index': 1567, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'CA'}
+      {'atom_index': 1568, 'resnr': 100, 'resname': 'LYS', 'atom_name': 'HA'}
+    Dihedral: (2086, 2088, 2094, 2096) (Type: unknown)
+      {'atom_index': 2086, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'N'}
+      {'atom_index': 2088, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'CA'}
+      {'atom_index': 2094, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 2096, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (2089, 2088, 2094, 2096) (Type: unknown)
+      {'atom_index': 2089, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'HA'}
+      {'atom_index': 2088, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'CA'}
+      {'atom_index': 2094, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 2096, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'N'}
+    Dihedral: (2088, 2094, 2096, 2097) (Type: unknown)
+      {'atom_index': 2088, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'CA'}
+      {'atom_index': 2094, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 2096, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 2097, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (2095, 2094, 2096, 2097) (Type: unknown)
+      {'atom_index': 2095, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'O'}
+      {'atom_index': 2094, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 2096, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 2097, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'HN'}
+    Dihedral: (2095, 2094, 2096, 2098) (Type: unknown)
+      {'atom_index': 2095, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'O'}
+      {'atom_index': 2094, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 2096, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 2098, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'CA'}
+    Dihedral: (2094, 2096, 2098, 2099) (Type: unknown)
+      {'atom_index': 2094, 'resnr': 131, 'resname': 'ALA', 'atom_name': 'C'}
+      {'atom_index': 2096, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 2098, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 2099, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'HA'}
+    Dihedral: (2096, 2098, 2113, 2115) (Type: unknown)
+      {'atom_index': 2096, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'N'}
+      {'atom_index': 2098, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 2113, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 2115, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'N'}
+    Dihedral: (2099, 2098, 2113, 2115) (Type: unknown)
+      {'atom_index': 2099, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'HA'}
+      {'atom_index': 2098, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 2113, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 2115, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'N'}
+    Dihedral: (2098, 2113, 2115, 2116) (Type: unknown)
+      {'atom_index': 2098, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'CA'}
+      {'atom_index': 2113, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 2115, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'N'}
+      {'atom_index': 2116, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'HN'}
+    Dihedral: (2114, 2113, 2115, 2116) (Type: unknown)
+      {'atom_index': 2114, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 2113, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 2115, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'N'}
+      {'atom_index': 2116, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'HN'}
+    Dihedral: (2114, 2113, 2115, 2117) (Type: unknown)
+      {'atom_index': 2114, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'O'}
+      {'atom_index': 2113, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 2115, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'N'}
+      {'atom_index': 2117, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'CA'}
+    Dihedral: (2113, 2115, 2117, 2118) (Type: unknown)
+      {'atom_index': 2113, 'resnr': 132, 'resname': 'ILE', 'atom_name': 'C'}
+      {'atom_index': 2115, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'N'}
+      {'atom_index': 2117, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'CA'}
+      {'atom_index': 2118, 'resnr': 133, 'resname': 'PHE', 'atom_name': 'HA'}
+Glycan 2: 2136 - 2253
+  Glycan-only Dihedrals: [(2183, 2182, 2184, 2190), (2182, 2184, 2190, 2191), (2182, 2184, 2190, 2194), (2184, 2190, 2194, 2192), (2184, 2190, 2195, 2196), (2184, 2190, 2195, 2197)]
+  Protein-Glycan Dihedrals: [(231, 230, 232, 2136), (230, 232, 2136, 2137), (230, 232, 2136, 2140), (233, 232, 2136, 2137), (233, 232, 2136, 2140), (233, 232, 2136, 2141), (232, 2136, 2140, 2138), (232, 2136, 2141, 2142), (232, 2136, 2141, 2143)]
+  Classified Glycan-only Dihedrals:
+    Dihedral: (2183, 2182, 2184, 2190) (Type: psi)
+      {'atom_index': 2183, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'H4'}
+      {'atom_index': 2182, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'C4'}
+      {'atom_index': 2184, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2190, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+    Dihedral: (2182, 2184, 2190, 2191) (Type: psi)
+      {'atom_index': 2182, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'C4'}
+      {'atom_index': 2184, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2190, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+      {'atom_index': 2191, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'H1'}
+    Dihedral: (2182, 2184, 2190, 2194) (Type: phi)
+      {'atom_index': 2182, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'C4'}
+      {'atom_index': 2184, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2190, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+      {'atom_index': 2194, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'O5'}
+    Dihedral: (2184, 2190, 2194, 2192) (Type: phi)
+      {'atom_index': 2184, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2190, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+      {'atom_index': 2194, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'O5'}
+      {'atom_index': 2192, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C5'}
+    Dihedral: (2184, 2190, 2195, 2196) (Type: psi)
+      {'atom_index': 2184, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2190, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+      {'atom_index': 2195, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C2'}
+      {'atom_index': 2196, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'H2'}
+    Dihedral: (2184, 2190, 2195, 2197) (Type: unknown)
+      {'atom_index': 2184, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2190, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+      {'atom_index': 2195, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C2'}
+      {'atom_index': 2197, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'O2'}
+  Classified Protein-Glycan Dihedrals:
+    Dihedral: (231, 230, 232, 2136) (Type: unknown)
+      {'atom_index': 231, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'OD1'}
+      {'atom_index': 230, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'CG'}
+      {'atom_index': 232, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2136, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+    Dihedral: (230, 232, 2136, 2137) (Type: unknown)
+      {'atom_index': 230, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'CG'}
+      {'atom_index': 232, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2136, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2137, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'H1'}
+    Dihedral: (230, 232, 2136, 2140) (Type: unknown)
+      {'atom_index': 230, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'CG'}
+      {'atom_index': 232, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2136, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2140, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'O5'}
+    Dihedral: (233, 232, 2136, 2137) (Type: unknown)
+      {'atom_index': 233, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'HD22'}
+      {'atom_index': 232, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2136, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2137, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'H1'}
+    Dihedral: (233, 232, 2136, 2140) (Type: unknown)
+      {'atom_index': 233, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'HD22'}
+      {'atom_index': 232, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2136, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2140, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'O5'}
+    Dihedral: (233, 232, 2136, 2141) (Type: unknown)
+      {'atom_index': 233, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'HD22'}
+      {'atom_index': 232, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2136, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2141, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C2'}
+    Dihedral: (232, 2136, 2140, 2138) (Type: unknown)
+      {'atom_index': 232, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2136, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2140, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'O5'}
+      {'atom_index': 2138, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C5'}
+    Dihedral: (232, 2136, 2141, 2142) (Type: unknown)
+      {'atom_index': 232, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2136, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2141, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C2'}
+      {'atom_index': 2142, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'H2'}
+    Dihedral: (232, 2136, 2141, 2143) (Type: unknown)
+      {'atom_index': 232, 'resnr': 15, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2136, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2141, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C2'}
+      {'atom_index': 2143, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'N'}
+Glycan 3: 2254 - 2371
+  Glycan-only Dihedrals: [(2301, 2300, 2302, 2308), (2300, 2302, 2308, 2309), (2300, 2302, 2308, 2312), (2302, 2308, 2312, 2310), (2302, 2308, 2313, 2314), (2302, 2308, 2313, 2315)]
+  Protein-Glycan Dihedrals: [(1114, 1113, 1115, 2254), (1113, 1115, 2254, 2255), (1113, 1115, 2254, 2258), (1116, 1115, 2254, 2255), (1116, 1115, 2254, 2258), (1116, 1115, 2254, 2259), (1115, 2254, 2258, 2256), (1115, 2254, 2259, 2260), (1115, 2254, 2259, 2261)]
+  Classified Glycan-only Dihedrals:
+    Dihedral: (2301, 2300, 2302, 2308) (Type: psi)
+      {'atom_index': 2301, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'H4'}
+      {'atom_index': 2300, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'C4'}
+      {'atom_index': 2302, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2308, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+    Dihedral: (2300, 2302, 2308, 2309) (Type: psi)
+      {'atom_index': 2300, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'C4'}
+      {'atom_index': 2302, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2308, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+      {'atom_index': 2309, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'H1'}
+    Dihedral: (2300, 2302, 2308, 2312) (Type: phi)
+      {'atom_index': 2300, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'C4'}
+      {'atom_index': 2302, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2308, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+      {'atom_index': 2312, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'O5'}
+    Dihedral: (2302, 2308, 2312, 2310) (Type: phi)
+      {'atom_index': 2302, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2308, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+      {'atom_index': 2312, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'O5'}
+      {'atom_index': 2310, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C5'}
+    Dihedral: (2302, 2308, 2313, 2314) (Type: psi)
+      {'atom_index': 2302, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2308, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+      {'atom_index': 2313, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C2'}
+      {'atom_index': 2314, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'H2'}
+    Dihedral: (2302, 2308, 2313, 2315) (Type: unknown)
+      {'atom_index': 2302, 'resnr': 2, 'resname': 'BGLCNA', 'atom_name': 'O4'}
+      {'atom_index': 2308, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C1'}
+      {'atom_index': 2313, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'C2'}
+      {'atom_index': 2315, 'resnr': 3, 'resname': 'BMAN', 'atom_name': 'O2'}
+  Classified Protein-Glycan Dihedrals:
+    Dihedral: (1114, 1113, 1115, 2254) (Type: unknown)
+      {'atom_index': 1114, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'OD1'}
+      {'atom_index': 1113, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'CG'}
+      {'atom_index': 1115, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2254, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+    Dihedral: (1113, 1115, 2254, 2255) (Type: unknown)
+      {'atom_index': 1113, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'CG'}
+      {'atom_index': 1115, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2254, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2255, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'H1'}
+    Dihedral: (1113, 1115, 2254, 2258) (Type: unknown)
+      {'atom_index': 1113, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'CG'}
+      {'atom_index': 1115, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2254, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2258, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'O5'}
+    Dihedral: (1116, 1115, 2254, 2255) (Type: unknown)
+      {'atom_index': 1116, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'HD22'}
+      {'atom_index': 1115, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2254, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2255, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'H1'}
+    Dihedral: (1116, 1115, 2254, 2258) (Type: unknown)
+      {'atom_index': 1116, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'HD22'}
+      {'atom_index': 1115, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2254, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2258, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'O5'}
+    Dihedral: (1116, 1115, 2254, 2259) (Type: unknown)
+      {'atom_index': 1116, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'HD22'}
+      {'atom_index': 1115, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2254, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2259, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C2'}
+    Dihedral: (1115, 2254, 2258, 2256) (Type: unknown)
+      {'atom_index': 1115, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2254, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2258, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'O5'}
+      {'atom_index': 2256, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C5'}
+    Dihedral: (1115, 2254, 2259, 2260) (Type: unknown)
+      {'atom_index': 1115, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2254, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2259, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C2'}
+      {'atom_index': 2260, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'H2'}
+    Dihedral: (1115, 2254, 2259, 2261) (Type: unknown)
+      {'atom_index': 1115, 'resnr': 70, 'resname': 'ASN', 'atom_name': 'ND2'}
+      {'atom_index': 2254, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C1'}
+      {'atom_index': 2259, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'C2'}
+      {'atom_index': 2261, 'resnr': 1, 'resname': 'BGLCNA', 'atom_name': 'N'}
