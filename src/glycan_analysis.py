@@ -5,8 +5,6 @@ import MDAnalysis as mda
 import numpy as np
 from MDAnalysis.lib.distances import calc_dihedrals
 import plotly.graph_objects as go
-import tkinter as tk
-from tkinter import simpledialog
 
 
 ############################
