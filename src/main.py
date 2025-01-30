@@ -7,9 +7,9 @@ from glycan_analysis import *
 
 if __name__ == "__main__":
     # Input files
-    itp_file = "data/IL3_GLY_R1_conv/toppar/PROA.itp"
-    gro_file = "data/IL3_GLY_R1_conv/IL3_GLY_R1_conv.gro"
-    xtc_file = "data/IL3_GLY_R1_conv/IL3_GLY_R1_conv.xtc"
+    itp_file = "data/IL3_GLY_R1/toppar/PROA.itp"
+    gro_file = "data/IL3_GLY_R1/IL3_GLY_R1_conv.gro"
+    xtc_file = "data/IL3_GLY_R1/IL3_GLY_R1_conv.xtc"
 
     # Set of standard amino acids
     AMINO_ACIDS = {
