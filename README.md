@@ -1,7 +1,4 @@
 # glycan_analysis
-
-Here is the **README** section based on your request:
-
 ---
 
 # Environment Setup with UV
@@ -50,8 +47,8 @@ For more installation details, check the [UV GitHub page](https://github.com/ast
 ## Clone the Git Repository
 
 ```sh
-git clone <repository_url>
-cd <repository_name>
+git clone <git@github.com:GiuliaDGM/glycan_analysis.git>
+cd <glycan_analysis>
 ```
 
 ---
@@ -66,5 +63,3 @@ uv sync
 This will install all necessary dependencies from `pyproject.toml`.
 
 ---
-
-This ensures a **fast**, **lightweight**, and **reproducible** setup for your project. 🚀
