@@ -1,5 +1,4 @@
 # glycan_analysis
----
 
 # Environment Setup with UV
 
@@ -47,8 +46,8 @@ For more installation details, check the [UV GitHub page](https://github.com/ast
 ## Clone the Git Repository
 
 ```sh
-git clone <git@github.com:GiuliaDGM/glycan_analysis.git>
-cd <glycan_analysis>
+git clone git@github.com:GiuliaDGM/glycan_analysis.git
+cd glycan_analysis
 ```
 
 ---
