@@ -9,5 +9,4 @@ dependencies = [
     "mdanalysis>=2.8.0",
     "numpy>=2.2.2",
     "plotly>=6.0.0",
-    "tkinter",
 ]
