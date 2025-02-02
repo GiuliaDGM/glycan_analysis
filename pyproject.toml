@@ -10,3 +10,9 @@ dependencies = [
     "numpy>=2.2.2",
     "plotly>=6.0.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+    "ruff>=0.9.4",
+]
