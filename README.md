@@ -62,3 +62,32 @@ uv sync
 This will install all necessary dependencies from `pyproject.toml`.
 
 ---
+
+## Running the Code
+
+After setting up your environment with `uv`, you can run the project using:
+
+```sh
+uv run src/main.py
+```
+
+### **Difference Between `python src/main.py` and `uv run src/main.py`**
+
+1. **`python src/main.py`**
+   - Runs the script using the globally installed Python interpreter or the one in your virtual environment.
+   - Requires you to manually activate the virtual environment before running (`source .venv/bin/activate` or `.\.venv\Scripts\activate` on Windows).
+
+2. **`uv run src/main.py`**
+   - Runs the script using the environment managed by `uv`.
+   - Ensures that dependencies from `pyproject.toml` are correctly resolved and installed before running the script.
+   - Does **not** require activating a virtual environment manually.
+
+### **Configuring the Output File**
+
+By default, the output data file is set in **`src/main.py`** at **line 27**:
+
+```python
+output_file = "results/IL3_GLY_R1/glycan_ranges.txt"
+```
+
+If you want to change the output location, update this line before running the script.
