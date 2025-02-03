@@ -74,46 +74,18 @@ if __name__ == "__main__":
     ###################################
     # E) USER PROMPT TO PLOT OR NOT   #
     ###################################
-    want_plot = True
+    # Ask user for plotting preference in the terminal
+    want_plot = None
 
     while want_plot is None:
-        try:
-            # Try showing a Tkinter pop-up
-            # root = tk.Tk()
-            # root.withdraw()  # Hide the main Tk window
-            # answer = simpledialog.askstring(
-            #     "Plot generation",
-            #     "Do you want to generate dihedral angle plots ? (yes/no)",
-            # )
-            # root.destroy()  # Close the hidden root window
+        answer = input("Do you want to generate dihedral angle plots? (yes/no): ").strip().lower()
+        if answer in ["yes", "y"]:
+            want_plot = True
+        elif answer in ["no", "n"]:
+            want_plot = False
+        else:
+            print("Invalid input. Please enter 'yes' or 'no'.")
 
-            if answer is None:
-                # User closed pop-up or cancelled
-                print("No input provided via pop-up. Will ask in terminal.")
-                # Fallback to terminal approach below
-                raise Exception("Pop-up closed.")
-            else:
-                response = answer.strip().lower()
-                if response in ["yes", "y"]:
-                    want_plot = True
-                elif response in ["no", "n"]:
-                    want_plot = False
-                else:
-                    print("Please enter 'yes' or 'no' in the pop-up.")
-                    # loop again (won't set want_plot, so it stays None)
-        except:
-            # If pop-up fails or user closed it, ask in terminal
-            while True:
-                answer = input("Do you want to generate dihedral angle plots ? (yes/no): ")
-                response = answer.strip().lower()
-                if response in ["yes", "y"]:
-                    want_plot = True
-                    break
-                elif response in ["no", "n"]:
-                    want_plot = False
-                    break
-                else:
-                    print("Please enter 'yes' or 'no'.")
 
     # ============================================
     # F) PLOT IF USER WANTS
