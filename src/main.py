@@ -2,8 +2,6 @@
 
 # Imports
 from glycan_analysis import *
-# import tkinter as tk
-# from tkinter import simpledialog
 
 if __name__ == "__main__":
     # Input files
