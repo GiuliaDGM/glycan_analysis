@@ -1,6 +1,6 @@
 # glycan_analysis
 
-# Environment Setup with UV
+# 1) Environment setup with UV
 
 For this project, we will be using **UV** to create and manage our environments.
 
@@ -13,7 +13,7 @@ For more details, visit the **[UV Documentation](https://astral.sh/uv/)**.
 
 ---
 
-## How to Install UV
+## How to install UV
 
 ### **On macOS and Linux:**
 ```sh
@@ -41,18 +41,16 @@ uv self update
 
 For more installation details, check the [UV GitHub page](https://github.com/astral-sh/uv).
 
----
 
-## Clone the Git Repository
+
+# 2) **Clone the git repository**
 
 ```sh
 git clone git@github.com:GiuliaDGM/glycan_analysis.git
 cd glycan_analysis
 ```
 
----
-
-## Sync Dependencies
+# 3) **Sync dependencies**
 
 Once inside the repository, sync the environment with:
 ```sh
@@ -61,17 +59,15 @@ uv sync
 
 This will install all necessary dependencies from `pyproject.toml`.
 
----
 
-## Running the Code
+
+# 4) **Running the code**
 
 After setting up your environment with `uv`, you can run the project using:
 
 ```sh
 uv run src/main.py
 ```
-
-### **Configuring the Output File**
 
 By default, the output data file is set in **`src/main.py`** at **line 27**:
 
