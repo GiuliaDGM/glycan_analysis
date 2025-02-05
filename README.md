@@ -6,7 +6,7 @@ For this project, we will be using **UV** to create and manage our environments.
 
 ### Why UV and not Conda?
 1. **Speed** – UV is significantly faster than Conda for package installation and dependency resolution.
-2. **Lightweight** – Unlike Conda, UV does not require a separate package manager and works efficiently with `pyproject.toml`.
+2. **Lightweight** – Unlike Conda, UV does not require a separate package manager and works efficiently with `pyproject.toml` (file that automatically manages all libraries and dependencies needed).
 3. **Better Dependency Management** – UV offers improved dependency resolution and reproducibility compared to Conda.
 
 For more details, visit the **[UV Documentation](https://astral.sh/uv/)**.
@@ -70,17 +70,6 @@ After setting up your environment with `uv`, you can run the project using:
 ```sh
 uv run src/main.py
 ```
-
-### **Difference Between `python src/main.py` and `uv run src/main.py`**
-
-1. **`python src/main.py`**
-   - Runs the script using the globally installed Python interpreter or the one in your virtual environment.
-   - Requires you to manually activate the virtual environment before running (`source .venv/bin/activate` or `.\.venv\Scripts\activate` on Windows).
-
-2. **`uv run src/main.py`**
-   - Runs the script using the environment managed by `uv`.
-   - Ensures that dependencies from `pyproject.toml` are correctly resolved and installed before running the script.
-   - Does **not** require activating a virtual environment manually.
 
 ### **Configuring the Output File**
 
