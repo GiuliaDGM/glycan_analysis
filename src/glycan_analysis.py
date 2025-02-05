@@ -6,10 +6,9 @@ import numpy as np
 from MDAnalysis.lib.distances import calc_dihedrals
 import plotly.graph_objects as go
 
-
-############################
-# 1) Parsing the .itp file #
-############################
+# ============================================================================
+# Parsing the .itp file
+# ============================================================================
 
 def extract_section_lines(lines, section_name):
     """
@@ -173,8 +172,8 @@ def attach_protein_atoms_to_glycans(glycans, dihedrals, atom_data):
 
 def group_glycans(glycan_atoms, dihedrals, atom_data):
     """
-    Group glycan atoms into separate glycans based on a custom rule.
-    In this example, we start a new glycan whenever we find a residue #1 with atom name 'C1'.
+    Group glycan atoms into separate glycans.
+    We start a new glycan whenever we find a residue #1 with atom name 'C1'.
     
     Parameters:
         glycan_atoms (list): List of glycan atoms (dicts).
@@ -189,7 +188,7 @@ def group_glycans(glycan_atoms, dihedrals, atom_data):
     current_residues = set()
 
     for atom in glycan_atoms:
-        # If we detect the start of a new glycan (custom rule)
+        # If we detect the start of a new glycan
         if atom['resnr'] == 1 and atom['atom_name'] == 'C1':
             # Save the previous glycan if it exists
             if current_glycan:
@@ -393,11 +392,9 @@ def write_glycan_ranges(output_file, glycans, num_glycans, amino_acids):
                 for atom in classified["atoms"]:
                     file.write(f"      {atom}\n")
 
-
-################################################
-# 2) Dihedral calculation over a trajectory    #
-################################################
-
+# ============================================================================
+# Diheral calculation over a trajectory
+# ============================================================================
 
 def compute_dihedral_time_series_vectorized(universe, dihedrals_of_interest, start=None, stop=None, step=None):
     """
@@ -440,10 +437,9 @@ def compute_dihedral_time_series_vectorized(universe, dihedrals_of_interest, sta
     
     return times, angle_data
 
-
-##############################
-# 3) Plotting functionality  #
-##############################
+# ============================================================================
+# Plotting functionality
+# ============================================================================
 
 
 def dihedral_glycans(ai, aj, ak, al, glycan_atom_sets):
@@ -550,7 +546,6 @@ def plot_dihedrals_by_glycan_and_type_plotly(
             )
             fig.show()
 
-
-####################################################################################################################################
-####################################################################################################################################
-####################################################################################################################################
+# ============================================================================
+# ============================================================================
+# ============================================================================

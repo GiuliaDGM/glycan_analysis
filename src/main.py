@@ -12,14 +12,19 @@ if __name__ == "__main__":
     # Set of standard amino acids
     AMINO_ACIDS = {
         "ALA", "ARG", "ASN", "ASP", "CYS", "GLU", "GLN",
-        "GLY", "HIS", "HSD", "HSP" "ILE", "LEU", "LYS",
+        "GLY", "HIS", "HSD", "ILE", "LEU", "LYS",
         "MET", "PHE", "PRO", "SER", "THR",
         "TRP", "TYR", "VAL"
     }
+    """WARNING
+    For some reason, if we add 'HSP' to the set of amino acids, the program 
+    will for some reason find more glycans than it should.
+    """
 
-    ##############
-    # A) PARSING #
-    ##############
+    # ========================================================================
+    # 1) PARSING .itp FILE AND WRITING GLYCAN RANGES
+    # ========================================================================
+
     # Parse the .itp file
     glycans, num_glycans, atom_data = parse_itp(itp_file, AMINO_ACIDS)
 
@@ -28,9 +33,10 @@ if __name__ == "__main__":
     write_glycan_ranges(output_file, glycans, num_glycans, AMINO_ACIDS)
     print(f"Glycan ranges and dihedrals written to {output_file}\n")
 
-    ########################
-    # B) BUILD ATOM SETS   #
-    ########################
+    # ========================================================================
+    # 2) BUILDING ATOM SETS AND COLLECTING DIHEDRALS
+    # ========================================================================
+
     # For grouping dihedrals by glycan. These are 1-based indices (matching .itp).
     glycan_atom_sets = []
     for glycan in glycans:
@@ -47,18 +53,16 @@ if __name__ == "__main__":
     protein_glycan_dihedrals = list(set(protein_glycan_dihedrals))
     glycan_glycan_dihedrals = list(set(glycan_glycan_dihedrals))
 
-    #########################
-    # C) MDANALYSIS UNIVERSE#
-    #########################
+    # ========================================================================
+    # 3) LOADING TRAJECTORY AND COMPUTING DIHEDRALS
+    # ========================================================================
+
     print(f"Loading the trajectory from: {gro_file} and {xtc_file}")
     u = mda.Universe(gro_file, xtc_file)
 
     # We want angles for all these dihedrals
     dihedrals_of_interest = list(set(protein_glycan_dihedrals + glycan_glycan_dihedrals))
 
-    ###################################################
-    # D) COMPUTE DIHEDRALS ACROSS FRAMES WITH MDAnalysis
-    ###################################################
     print("Computing dihedral angles over the trajectory...")
     times, angle_data = compute_dihedral_time_series_vectorized(
         u,
@@ -69,9 +73,10 @@ if __name__ == "__main__":
     )
     print("Done computing dihedral angles.\n")
 
-    ###################################
-    # E) USER PROMPT TO PLOT OR NOT   #
-    ###################################
+    # ========================================================================
+    # 4) USER PROMPT TO PLOT OR NOT
+    # ========================================================================
+
     # Ask user for plotting preference in the terminal
     want_plot = None
 
@@ -84,10 +89,9 @@ if __name__ == "__main__":
         else:
             print("Invalid input. Please enter 'yes' or 'no'.")
 
-
-    # ============================================
-    # F) PLOT IF USER WANTS
-    # ============================================
+    # ========================================================================
+    # 5) PLOT IF USER WANTS
+    # ========================================================================
     if want_plot:
         plot_dihedrals_by_glycan_and_type_plotly(
             times,
