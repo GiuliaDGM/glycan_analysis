@@ -1,6 +1,13 @@
 # glycan_analysis
 
-# 1) Environment setup with UV
+# 1) **Clone the git repository**
+
+```sh
+git clone git@github.com:GiuliaDGM/glycan_analysis.git
+cd glycan_analysis
+```
+
+# 2) Environment setup with UV
 
 For this project, we will be using **UV** to create and manage our environments.
 
@@ -40,15 +47,6 @@ uv self update
 ```
 
 For more installation details, check the [UV GitHub page](https://github.com/astral-sh/uv).
-
-
-
-# 2) **Clone the git repository**
-
-```sh
-git clone git@github.com:GiuliaDGM/glycan_analysis.git
-cd glycan_analysis
-```
 
 # 3) **Sync dependencies**
 
