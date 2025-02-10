@@ -2,8 +2,17 @@
 
 # 1) **Clone the git repository**
 
+Clone using an SSH key (requires an SSH key set up on GitHub):
 ```sh
 git clone git@github.com:GiuliaDGM/glycan_analysis.git
+cd glycan_analysis
+```
+
+OR (if it doesn't work with the SSH URL)
+
+Clone using HTTPS:
+```sh
+git clone https://github.com/GiuliaDGM/glycan_analysis.git
 cd glycan_analysis
 ```
 
