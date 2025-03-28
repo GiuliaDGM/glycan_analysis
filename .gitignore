@@ -20,3 +20,6 @@ venv.bak/
 # MDAnalysis universes
 *.lock
 *.npz
+
+# Personal documents
+notepad.md

@@ -7,8 +7,11 @@ requires-python = ">=3.10"
 dependencies = [
     "matplotlib>=3.10.0",
     "mdanalysis>=2.8.0",
+    "mdtraj>=1.10.3",
     "numpy>=2.2.2",
+    "pandas>=2.2.3",
     "plotly>=6.0.0",
+    "scikit-learn>=1.6.1",
 ]
 
 [dependency-groups]
