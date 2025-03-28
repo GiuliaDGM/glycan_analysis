@@ -76,10 +76,4 @@ After setting up your environment with `uv`, you can run the project using:
 uv run src/main.py
 ```
 
-By default, the output data file is set in **`src/main.py`** at **line 27**:
-
-```python
-output_file = "results/IL3_GLY_R1/glycan_ranges.txt"
-```
-
-If you want to change the output location, update this line before running the script.
+By default, the plots that are generated, are stored in **`results/IL3_GLY_R1/`**.

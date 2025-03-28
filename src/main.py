@@ -1,7 +1,7 @@
 # Description: Main script to run the glycan analysis.
 
 # Imports
-
+import os
 from dihedral_retrieval import (
     parse_atoms,
     atom_ranges_of_molecules,
@@ -39,6 +39,12 @@ def main():
     itp_file = "data/IL3_GLY_R1/toppar/PROA.itp"
     gro_file = "data/IL3_GLY_R1/IL3_GLY_R1_conv.gro"
     xtc_file = "data/IL3_GLY_R1/IL3_GLY_R1_conv.xtc"
+
+    # Output directory
+    # Check if the output directory exists, if not create it
+    output_dir = "results/IL3_GLY_R1"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
 
     # ========================================================================

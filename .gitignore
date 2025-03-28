@@ -21,5 +21,6 @@ venv.bak/
 *.lock
 *.npz
 
-# Personal documents
+# Personal documents and folders
 notepad.md
+results/
